@@ -16,9 +16,9 @@ public class FileReader {
 
 	public static Stream<String> stream(String fileName) throws IOException {
 		File file = ResourceUtils.getFile(fileName);
-		log.info("Reading data from file: {}", file.getPath());
-		Stream<String> stream = Files.lines(Paths.get(file.getPath()), StandardCharsets.UTF_8);
-		return stream;
+		String path = file.getAbsolutePath();
+		log.info("Reading data from file: {}", path);
+		return Files.lines(Paths.get(path), StandardCharsets.UTF_8);
 	}
 
 }

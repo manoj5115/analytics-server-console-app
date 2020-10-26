@@ -38,7 +38,6 @@ public class Context {
 		this.propConfig = propConfig;
 		this.subscription = new HashMap<>();
 		updateSubscriptionInContext();
-		
 	}
 
 	private void updateSubscriptionInContext() {

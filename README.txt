@@ -14,7 +14,7 @@ Please follow below instructions to run the application from terminal.
 2) Navigate to project directory in your terminal.
 3) Run on linux -> ./gradlew clean build
 4) Run the Console app using below java cmd-
-	java -jar ./build/libs/stox-analytics-console-app-0.0.1-SNAPSHOT.jar
+	java -jar ./build/libs/stox-analytics-server-console-app-0.0.1-SNAPSHOT.jar
 
 Note: Please make sure to build the project again after you've modified the code and/or changed the input/symbol in subscription.json file. 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
